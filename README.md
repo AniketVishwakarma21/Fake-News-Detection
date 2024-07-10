@@ -22,7 +22,9 @@
 - **Deployment and Monitoring:**
     - **Deployment:** Deploy the trained model to a production environment for real-time or batch processing of news articles. This can be done using cloud services, APIs, or integrating with existing news platforms.
     - **Monitoring:** Continuously monitor the model’s performance and update it with new data to maintain accuracy. Implement feedback loops to retrain the model periodically.
-  **Import this to Run :-
+
+
+   **Import this to Run**
  import numpy as np
 import pandas as pd
 import re
