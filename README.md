@@ -24,16 +24,33 @@
     - **Monitoring:** Continuously monitor the model’s performance and update it with new data to maintain accuracy. Implement feedback loops to retrain the model periodically.
 
 
-   **Import this to Run**
+   ##Import this to Run##
   
  **import numpy as np**
+
+ 
 **import pandas as pd**
+
+
 **import re**
+
+
 **from nltk.corpus import stopwords # the for of in with**
+
+
 **from nltk.stem.porter import PorterStemmer # loved loving == love**
+
+
 **from sklearn.feature_extraction.text import TfidfVectorizer # loved = [0.0]**
+
+
 **from sklearn.model_selection import train_test_split**
+
+
 **from sklearn.linear_model import LogisticRegression**
+
+
 **from sklearn.metrics import accuracy_score**
+
 
 **Run Comman** streamlit run app.py
